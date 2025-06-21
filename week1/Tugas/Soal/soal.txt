@@ -1,0 +1,80 @@
+1.	Pengembang apartemen melakukan promosi penjualan sebagai berikut:
+	- Pembayaran tunai langsung: discount 10%
+	- Pembayaran tunai bertahap (dicicil 12 kali dalam 12 bulan): discount 5%
+	- Pembayaran kredit (dicicil dalam 50 kali dalam 50 bulan): tidak ada discount
+Buatlah program dengan ketentuan sebagai berikut:
+1. memiliki variabel harga apartemen
+2. memiliki variabel pilihan metode pembayaran berupa angka ataupun huruf
+3. menampilkan harga yang harus dibayarkan (total & cicilan bulanan jika ada)
+
+2.	Buatlah kalkulator yang dapat melakukan operasi sbb:
+	- tambah (+)
+	- kurang (-)
+	- kali (*)
+	- bagi (/)
+ketentuan program yang akan dibuat adalah sebagai berikut:
+1. memiliki variabel angka pertama
+2. memiliki variabel angka kedua
+3. memiliki variabel operator sesuai yang tertera diatas
+4. menampilkan rumus dan hasil perhitungan dari kedua angka, contoh: 25.6 + 15.8 =  41.4
+
+3. Buatlah program untuk menghitung biaya asuransi ladang dengan ketentuan sbb:
+	- pertanian standar = 3.5%
+	- ladang kacang kedelai, kentang, bawang merah dan cabai = 2%
+	- ladang padi dan jagung = 1.5%
+	- rumus perhitungan biaya asuransi = persentase asuransi * harga tanah * luas tanah
+ketentuan program yang akan dibuat adalah sebagai berikut:
+1. memiliki variabel jenis ladang
+2. memiliki variabel harga tanah
+3. memiliki variabel luas tanah
+4. menampilkan total biaya asuransi yang harus dibayarkan
+	
+4. Buatlah program untuk mengkategorikan nilai indeks polusi dengan ketentuan sbb:
+	- lebih kecil dari 35 = Nyaman
+	- antara 35 sampai 60 = Tidak Nyaman
+	- lebih besar dari 60 = Berbahaya
+ketentuan program yang akan dibuat adalah sebagai berikut:
+1. memiliki variabel nilai indeks polusi
+2. menampilkan kategori nilai indeks polusi yang sesuai
+
+5.  Perusahaan air bersih menagih pelanggannya berdasarkan jumlah pemakaian 
+air sesuai tabel berikut ini:
+Jumlah pemakaian (m3)		Tagihan                                                                       .                                                                   
+	0 – 100			Rp. 200.000,-
+	101 – 300		Rp. 200.000,- + Rp. 2.500,- untuk setiap m3 di atas 100
+	lebih dari 300		Rp. 900.000,- + Rp. 3.000,- untuk setiap m3 di atas 300
+ 
+ketentuan program yang akan dibuat adalah sebagai berikut:
+1. memiliki variabel jumlah pemakaian
+2. menampilkan total biaya pemakaian air yang harus dibayarkan
+
+
+6. Buatlah program sederhana untuk biaya yang dikeluarkan dalam penyewaaan mobil, dengan ketentuan berikut:
+	Kelas mobil
+	- (A) Sedan	--> Harga sewa Rp 350.000 / hari
+	- (H) Hatchback	--> Harga sewa Rp 340.000 / hari
+	- (M) MPV	--> Harga sewa Rp 320.000 / hari
+	- (S) Sport	--> Harga sewa Rp 600.000 / hari
+	- (T) Truck	--> Harga sewa Rp 750.000 / hari
+
+	Ketentuan lama hari sewa
+	- 1 s/d 7 hari, tidak dapat diskon
+	- 8 s/d 30 hari, diskon 5%
+	- 31 s/d 60 hari, diskon 10%
+	- di atas 60 hari, tidak diizinkan
+
+Tampilkan output berapa total biaya yang harus dibayar (output informasi selengkap-lengkapnya)
+
+
+7. Buat flowchart algoritma dari proses pemesanan ojek online berikut:
+	(1) Buka aplikasi Gojek
+	(2) Jika GPS tidak aktif, maka tidak bisa melanjutkan
+	(3) Jika GPS aktif, input lokasi penjemputan
+	(4) Input lokasi tujuan
+	(5) Jika saldo Gopay tidak mencukupi tarif, tidak bisa melanjutkan
+	(6) Mencari driver. Apabila dicancel, maka cari driver ulang (sampai dapat)
+	(7) Driver mengantar ke lokasi tujuan
+	(8) Berikan rating & komentar
+	(9) Selesai, tutup aplikasi
+
+**Buat menggunakan draw.io --> Search di google
