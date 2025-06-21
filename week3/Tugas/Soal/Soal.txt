@@ -1,0 +1,5 @@
+Buatlah kode program dalam bahasa Python untuk mencari suatu data dari sekumpulan element list. Program meminta 1 inputan awal berupa jumlah element list, kemudian user memasukkan satu per satu angka untuk list tersebut.
+
+Setelah itu user diminta menginput satu angka lain yang akan dicari. Program akan menampilkan apakah angka tersebut ada di dalam list atau tidak.
+
+Berikut contoh tampilan akhir yang diinginkan (1) :

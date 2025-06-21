@@ -1,0 +1,5 @@
+1. Buat sebuah variabel tanggal (date) dari 12 Juni 2021 pukul 15:35:10
+   Tampilkan sehingga menjadi : 
+   - 12 Jun 2021 15:35
+   - 2021/06/12 03:35 pm
+   - Jam 3 lewat 35 menit

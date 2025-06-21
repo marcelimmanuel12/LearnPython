@@ -11,42 +11,41 @@ c. 	Mencetak akar kuadrat dari 25 angka integer yang pertama (1 s/d 25)
 	Akar kuadrat dari 3 adalah 1.73
 	dst sampai 25 --> Akar kuadrat dari 25 adalah 5.00
 
-
-2.  Buat program untuk menghitung jumlah dari deret berikut ini 
-    sampai 100 suku yang pertama:
-    1 + ½  +  ¼  + 1/6 + 1/8 + 1/10 + 1/12 + ....
-    Program yang dibuat menampilkan perhitungan dan hasil penjumlahan deret
-    (Dari 1 s/d 100 & pakai looping for)
- 
-
-3. 	Perusahaan Birdie membuat dan menjual kandang burung, ketentuannya sbb:
-	- Perusahaan mendapatkan keuntungan sebesar Rp. 15.750,- untuk setiap kandang burung yang dijualnya
-	- Total penjualan adalah 3500 kandang burung per bulan
-	- Biaya tetap operasi perusahaan adalah Rp. 18.500.000,- per bulan dan tambahan sebesar Rp.1.000.000 perbulan untuk biaya iklan.
-	- Hasil penelitian menunjukkan bahwa jika melipatduakan biaya iklan maka total penjualan akan naik 15%. 
-	
-	Ketentuan program yang akan dibuat adalah sebagai berikut:
-	1. memiliki variabel keuntungan penjualan
-	2. memiliki variabel total penjualan
-	3. memiliki variabel Biaya operasi bulanan
-	4. memiliki variabel Biaya iklan
-	5. menampilkan perhitungan dan hasil dari pengingkatan biaya iklan dengan looping yang dihentikan apabila merugi (mulai minus)
+2. Buatlah function yang menerima sebuah huruf: A, B, C, D, atau E dan 
+menghasilkan nilai numerik untuk masing-masing huruf (A = 4.0, B = 3.0, C = 2.0, D = 1.0, E = 0.0)
+Jika bukan A / B / C / D / E = -1
 
 
-4.	Buat program untuk menghitung banyaknya bilangan ganjil dan bilangan genap dari n bilangan.
-	Hitung juga jumlah bilangan ganjil dan genap yang ada
-	Note: n bilangan didapat dari inputan prompt
-	Contoh: 
-	n = 10
-	Jumlah bil ganjil =  5
-	Jumlah bil genap = 5
-	Total penjumlahan bil ganjil = 25
-	Total penjumlahan bil genap = 30
+3. Buatlah function yang menerima angka integer dan menghasilkan nilai huruf sesuai dengan ketentuan berikut ini:
+ 	-  90.0 – 100	:  A
+	-  80.0 – 89.9	:  B
+	-  70.0 – 79.9	:  C
+	-  60.0 – 69.9	:  D
+	-  50.0 – 59.9	:  E
+	-  kurang dari 50.0 : F
+
+    (Boleh function void ataupun return)
 
 
-5.  Buat program untuk menampilkan deret dari n bilangan yang habis dibagi 2 dan habis dibagi 3
-    Note: n bilangan didapat dari inputan prompt
-    Contoh:
-    n = 10
-    Bil habis dibagi 2 = 2, 4, 6, 8, 10
-    Bil habis dibagi 3 = 3, 6, 9
+4. Buatlah function untuk menghitung luas trapesium dengan ketentuan berikut:
+   - Memiliki variabel untuk prompt yaitu: sisi atas, sisi bawah, tinggi
+   - Tampilkan informasi: sisi atasnya, sisi bawahnya, tingginya, dan luas trapesium
+
+   (Boleh function void ataupun return)
+
+
+5. Buatlah function untuk menghitung pajak yang harus dibayar seorang karyawan
+   dari penghasilan setahun, dengan ketentuan berikut:
+   - Lebih kecil sama dengan 54 juta, pajak = 0
+   - Di atas 54 juta dan di bawah sama dengan 150 juta, pajak = (penghasilan - 54 juta) * 3% + 100 ribu
+   - Di atas 150 juta, pajak = (penghasilan - 72 juta) * 4%  +  0.1% * penghasilan
+
+   (Function harus bertipe return)
+
+
+6. Buatlah function untuk menyelesaikan masalah perkalian dengan menggunakan operator + (tambah). 
+   Contoh:
+   kali(2,6)
+   output: 2 * 6 = 2 + 2 + 2 + 2 + 2 + 2
+           hasil = 12
+   (Boleh function void ataupun return)
