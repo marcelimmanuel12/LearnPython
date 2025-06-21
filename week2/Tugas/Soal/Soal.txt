@@ -1,0 +1,52 @@
+1. 	Buatlah program untuk masalah berikut ini:
+a. 	Mencetak 100 angka integer yang pertama (1 s/d 100)
+
+b. 	Mencetak nilai variabel x dan kurangi x dengan 0.5 selama x positif 	(Buat versi loop for dan loop while)
+	Clue: loop for pakai bantuan library namanya "numpy" agar bisa looping data float
+
+c. 	Mencetak akar kuadrat dari 25 angka integer yang pertama (1 s/d 25)
+	contoh output:
+	Akar kuadrat dari 1 adalah 1.00
+	Akar kuadrat dari 2 adalah 1.41
+	Akar kuadrat dari 3 adalah 1.73
+	dst sampai 25 --> Akar kuadrat dari 25 adalah 5.00
+
+
+2.  Buat program untuk menghitung jumlah dari deret berikut ini 
+    sampai 100 suku yang pertama:
+    1 + ½  +  ¼  + 1/6 + 1/8 + 1/10 + 1/12 + ....
+    Program yang dibuat menampilkan perhitungan dan hasil penjumlahan deret
+    (Dari 1 s/d 100 & pakai looping for)
+ 
+
+3. 	Perusahaan Birdie membuat dan menjual kandang burung, ketentuannya sbb:
+	- Perusahaan mendapatkan keuntungan sebesar Rp. 15.750,- untuk setiap kandang burung yang dijualnya
+	- Total penjualan adalah 3500 kandang burung per bulan
+	- Biaya tetap operasi perusahaan adalah Rp. 18.500.000,- per bulan dan tambahan sebesar Rp.1.000.000 perbulan untuk biaya iklan.
+	- Hasil penelitian menunjukkan bahwa jika melipatduakan biaya iklan maka total penjualan akan naik 15%. 
+	
+	Ketentuan program yang akan dibuat adalah sebagai berikut:
+	1. memiliki variabel keuntungan penjualan
+	2. memiliki variabel total penjualan
+	3. memiliki variabel Biaya operasi bulanan
+	4. memiliki variabel Biaya iklan
+	5. menampilkan perhitungan dan hasil dari pengingkatan biaya iklan dengan looping yang dihentikan apabila merugi (mulai minus)
+
+
+4.	Buat program untuk menghitung banyaknya bilangan ganjil dan bilangan genap dari n bilangan.
+	Hitung juga jumlah bilangan ganjil dan genap yang ada
+	Note: n bilangan didapat dari inputan prompt
+	Contoh: 
+	n = 10
+	Jumlah bil ganjil =  5
+	Jumlah bil genap = 5
+	Total penjumlahan bil ganjil = 25
+	Total penjumlahan bil genap = 30
+
+
+5.  Buat program untuk menampilkan deret dari n bilangan yang habis dibagi 2 dan habis dibagi 3
+    Note: n bilangan didapat dari inputan prompt
+    Contoh:
+    n = 10
+    Bil habis dibagi 2 = 2, 4, 6, 8, 10
+    Bil habis dibagi 3 = 3, 6, 9
